@@ -1,0 +1,27 @@
+
+body, html {
+  height: 100%;
+  font-family: "Inconsolata", sans-serif;
+}
+
+.bgimg {
+  background-position: center;
+  background-size: cover;
+  background-image: url("/w3images/coffeehouse.jpg");
+  min-height: 75%;
+}
+
+.menu {
+  display: none;
+}
+
+.coffeePic{
+    max-height: 100px;
+    max-width: 100px;
+}
+
+.coffee-container{
+    display: block;
+    margin: auto;
+}
+
