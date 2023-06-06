@@ -16,11 +16,11 @@
   margin: 0 auto;
 }
 
-/*.coffee-carousel_img{
-  width: 100%
-  height: 100%
-  object-fit: cover
-}*/
+.coffee-carousel_img{
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
 .carousel-track-container{
   background-color: aqua;
   padding: 10px;
