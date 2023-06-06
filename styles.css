@@ -1,4 +1,5 @@
 
+
 .coffeePic{
     max-height: 100px;
     max-width: 100px;
@@ -50,7 +51,7 @@
   cursor: pointer;
 }
 
-.carousel-button img{
+/* .carousel-button img{
   width: 12px;
 }
 
@@ -60,14 +61,14 @@
 
 .carousel-button--right{
   right: -40px
-}
+} */
 
-.carousel-navigation{
+ .carousel-navigation{
   background-color: aqua;
   display: flex;
   justify-content: center;
   padding: 20px 0;
-}
+} 
 
 .carousel-indicator{
   border: 0;
