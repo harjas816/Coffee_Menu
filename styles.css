@@ -1,20 +1,4 @@
 
-body, html {
-  height: 100%;
-  font-family: "Inconsolata", sans-serif;
-}
-
-.bgimg {
-  background-position: center;
-  background-size: cover;
-  background-image: url("/w3images/coffeehouse.jpg");
-  min-height: 75%;
-}
-
-.menu {
-  display: none;
-}
-
 .coffeePic{
     max-height: 100px;
     max-width: 100px;
@@ -25,3 +9,75 @@ body, html {
     margin: auto;
 }
 
+.coffee-carousel{
+  position: relative;
+  height: 300px;
+  width: 80%;
+  margin: 0 auto;
+}
+
+/*.coffee-carousel_img{
+  width: 100%
+  height: 100%
+  object-fit: cover
+}*/
+.carousel-track-container{
+  background-color: aqua;
+  padding: 10px;
+  height: 100%;
+  position: relative;
+}
+
+.carousel-track{
+  padding: 0px;
+  margin: 0px;
+  list-style: none;
+}
+
+.carousel-slide{
+  position: absolute;
+  top: 0%;
+  bottom: 0%;
+  width: 100%;
+}
+
+.carousel-button{
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  background: transparent;
+  border: 0;
+  cursor: pointer;
+}
+
+.carousel-button img{
+  width: 12px;
+}
+
+.carousel-button--left{
+  left: -40px;
+}
+
+.carousel-button--right{
+  right: -40px
+}
+
+.carousel-navigation{
+  background-color: aqua;
+  display: flex;
+  justify-content: center;
+  padding: 20px 0;
+}
+
+.carousel-indicator{
+  border: 0;
+  border-radius: 50%;
+  width: 15px;
+  height: 15px;
+  background-color: darkgrey;
+  margin: 0 7px;
+}
+
+.carousel-indicator.current-slide{
+  background-color: rgba(0, 0, 0, .75);
+}
