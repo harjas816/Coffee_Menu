@@ -37,6 +37,9 @@ function putTheCoffeeOnScreen(coffee){
     coffeePic.src = coffee.image
     coffeeHome.textContent = coffee.country
     coffeeBean.textContent = coffee['bean-type']
+    coffeePic.addeventListener ("mouseover", () => {
+        
+    })
 
 
 }

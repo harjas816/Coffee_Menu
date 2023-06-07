@@ -4,62 +4,72 @@
     "name": "Drip",
     "image": "https://www.nescafe.com/gb/sites/default/files/what-is-drip-coffee-desktop.jpg",
     "bean-type": "Arabica",
-    "country": "Germany"
+    "country": "Germany",
+    "fact" : ""
     },
     {"id": 2,
     "name": "Cold Brew",
     "image": "https://www.thedinnerbite.com/wp-content/uploads/2021/07/cold-brew-img-4.jpg",
     "bean-type": "Arabica",
-    "country": "Japan"
+    "country": "Japan",
+    "fact" : ""
     },
     {"id": 3,
     "name": "Espresso",
     "image": "https://www.thespruceeats.com/thmb/HJrjMfXdLGHbgMhnM0fMkDx9XPQ=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/what-is-espresso-765702-hero-03_cropped-ffbc0c7cf45a46ff846843040c8f370c.jpg",
     "bean-type": "Arabica",
-    "country": "Italy"
+    "country": "Italy",
+    "fact" : ""
     },
     {"id": 4,
     "name": "Latte",
     "image": "https://www.allrecipes.com/thmb/Wh0Qnynwdxok4oN0NZ1Lz-wl0A8=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/9428203-9d140a4ed1424824a7ddd358e6161473.jpg",
     "bean-type": "Arabica",
-    "country": "Italy"
+    "country": "Italy",
+    "fact" : ""
     },
     {"id": 5,
     "name": "Cappuccino",
     "image": "https://cdn.shopify.com/s/files/1/0022/1393/7252/articles/20221223082901-cappuccino-recipe-blog_1024x1024.webp?v=1671784153",
     "bean-type": "Arabica",
-    "country": "Italy"
+    "country": "Italy",
+    "fact" : ""
     },
     {"id": 6,
     "name": "Macchiato",
     "image": "https://cdn.shopify.com/s/files/1/0022/1393/7252/articles/Caffe-Macchiato-Recipe_1024x1024.webp?v=1669904984",
     "bean-type": "Arabica",
-    "country": "Italy"
+    "country": "Italy",
+    "fact" : ""
     },
     {"id": 7,
     "name": "Americano",
     "image": "https://cdn.shopify.com/s/files/1/0022/1393/7252/articles/20230113070552-caffe-americano-blog_1200x1200.webp?v=1673593629",
     "bean-type": "Arabica",
-    "country": "Italy"
+    "country": "Italy",
+    "fact" : ""
     },
     {"id": 8,
     "name": "Instant Coffee",
     "image": "https://www.mashed.com/img/gallery/the-real-reason-you-shouldnt-drink-instant-coffee/intro-1592393266.jpg",
     "bean-type": "robusta",
-    "country": "New Zealand"
-    },
+    "country": "New Zealand",
+    "fact" : ""
+      },
     {"id": 9,
     "name": "Madras Coffee",
     "image": "https://imagesvc.meredithcorp.io/v3/mm/image?url=https%3A%2F%2Fstatic.onecms.io%2Fwp-content%2Fuploads%2Fsites%2F19%2F2018%2F02%2F13%2Fassets-message-editor-1476386383914-gettyimages-179578730_0.jpg",
     "bean-type": "Robusta",
-    "country": "South India"
+    "country": "South India",
+    "fact" : ""
     },
     {
       "id": 10,
       "name": "Irish Coffee",
       "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/61/Irish_coffee_glass.jpg/1200px-Irish_coffee_glass.jpg",
       "bean-type": "Arabica",
-      "country": "Ireland"
+      "country": "Ireland",
+      "fact" : ""
     }
   ]
 }
