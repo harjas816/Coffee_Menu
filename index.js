@@ -29,17 +29,15 @@ function displayCoffeeImage(coffee){
 }
 
 function putTheCoffeeOnScreen(coffee){
-    let coffeeName = document.getElementById('coffee-container')
-    let coffeePic = document.createElement('img')
-    let coffeeHome = document.createElement('p')
-    let coffeeBean = document.createElement('p')
+    
+    let coffeePic = document.getElementById('coffee-picture')
+    let coffeeHome = document.getElementById('coffee-country')
+    let coffeeBean = document.getElementById('coffee-bean')
     
     coffeePic.src = coffee.image
     coffeeHome.textContent = coffee.country
     coffeeBean.textContent = coffee['bean-type']
 
-    coffeeName.append(coffeePic)
-    coffeeName.append(coffeeHome)
-    coffeeName.append(coffeeBean)
+
 }
 
