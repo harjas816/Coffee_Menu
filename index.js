@@ -6,7 +6,7 @@ document.addEventListener("DOMContentLoaded", () => {
 
 
 function displayCoffeeImage(coffee){
-    let coffeeName = document.getElementById('coffee-container')
+    let coffeeName = document.getElementById('coffee-names')
     let name = document.createElement('p')
     // let coffeePic = document.createElement('img')
     // let coffeeHome = document.createElement('p')
