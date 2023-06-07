@@ -8,19 +8,12 @@ document.addEventListener("DOMContentLoaded", () => {
 function displayCoffeeImage(coffee){
     let coffeeName = document.getElementById('coffee-names')
     let name = document.createElement('p')
-    // let coffeePic = document.createElement('img')
-    // let coffeeHome = document.createElement('p')
-    // let coffeeBean = document.createElement('p')
 
     name.textContent = coffee.name
-    // coffeePic.src = coffee.image
-    // coffeeHome.textContent = coffee.country
-    // coffeeBean.textContent = coffee['bean-type']
+    
 
     coffeeName.append(name)
-    // coffeeName.append(coffeePic)
-    // coffeeName.append(coffeeHome)
-    // coffeeName.append(coffeeBean)
+    
 
     name.addEventListener("click",() => {
         putTheCoffeeOnScreen(coffee)
@@ -37,8 +30,13 @@ function putTheCoffeeOnScreen(coffee){
     coffeePic.src = coffee.image
     coffeeHome.textContent = coffee.country
     coffeeBean.textContent = coffee['bean-type']
-    coffeePic.addeventListener ("mouseover", () => {
-        
+    coffeePic.addEventListener ("mouseover", (event) => {
+        let coffeeFact = document.getElementById("funfact")
+        coffeeFact.textContent = coffee.fact
+    })
+    coffeePic.addEventListener("mouseout", () => {
+        let coffeFact = document.getElementById("funfact")
+        coffeFact.textContent = "  "
     })
 
 
