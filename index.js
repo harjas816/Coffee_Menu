@@ -28,7 +28,7 @@ function displayCoffeeImage(coffee){
 
 }
 
-function putTheCoffeeOnScreen(){
+function putTheCoffeeOnScreen(coffee){
     let coffeeName = document.getElementById('coffee-container')
     let coffeePic = document.createElement('img')
     let coffeeHome = document.createElement('p')
