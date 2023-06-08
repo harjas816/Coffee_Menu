@@ -23,10 +23,12 @@ function displayCoffeeImage(coffee){
 
 function putTheCoffeeOnScreen(coffee){
     
+    let nameOfCoffee = document.getElementById("coffee-name")
     let coffeePic = document.getElementById('coffee-picture')
     let coffeeHome = document.getElementById('coffee-country')
     let coffeeBean = document.getElementById('coffee-bean')
     
+    nameOfCoffee.textContent = coffee.name
     coffeePic.src = coffee.image
     coffeeHome.textContent = coffee.country
     coffeeBean.textContent = coffee['bean-type']
@@ -41,4 +43,17 @@ function putTheCoffeeOnScreen(coffee){
 
 
 }
+
+let form = document.getElementById("New Coffee Form")
+form.addEventListener("submit", (event) => {
+    event.preventDefault()
+    let newObj = {
+        "name": event.target.name.value,
+        "image": event.target.image.value,
+        "bean-type": event.target.bean.value,
+        "country": event.target.country.value,
+        "fact": event.target.fun_fact.value
+    }
+    displayCoffeeImage(newObj)
+})
 
