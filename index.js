@@ -1,7 +1,10 @@
 document.addEventListener("DOMContentLoaded", () => {
     fetch("http://localhost:3000/coffees")
     .then(r => r.json())
-    .then(data => data.forEach(displayCoffeeImage))
+    .then(data => {
+        data.forEach(displayCoffeeImage)
+        putTheCoffeeOnScreen(data[0])
+    })
 })
 
 

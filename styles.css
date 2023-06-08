@@ -1,10 +1,35 @@
-
-.app-name{
-  text-align: center;
-  font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+.coffee-details{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 55%;
+  object-fit: contain;
+  height: 55%;
+  position: fixed;
+  right: 40px;
+  transform: translateY(-135%);
+  color: aliceblue;
+  font-weight: bold;
+  font-size: 20px;
 }
 
-.coffee-list{
-  display: flex;
-  justify-content: left;
+.coffee-picture{
+  height: 400px;
+  width: 400px;
+  object-fit: cover;
 }
+
+body{
+  background-color: burlywood;
+  background-image: url(img/coffee-bean.jpeg);
+  background-size: 75%;
+}
+
+.coffee-names{
+  color: aliceblue;
+  font-weight: bold;
+  font-size: 20px;
+}
+
+
+
